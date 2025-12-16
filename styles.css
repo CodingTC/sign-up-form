@@ -233,3 +233,23 @@ p
     display: flex;
     flex-direction: column;
 }
+
+.field input
+{
+    border: 1px solid #E5E7EB;
+}
+
+.field input[type="password"]:invalid
+{
+    border-color: red;
+}
+
+.field input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+.field input[type="password"]:focus {
+  border-color: blue;
+  outline: none;
+}
