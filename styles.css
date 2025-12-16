@@ -148,10 +148,6 @@ p
     text-align: center;
     color: white;
 }
-.sidebar p a:link
-{
-    color: green; 
-}
 
 .sidebar p a:visited
 {
