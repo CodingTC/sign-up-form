@@ -68,6 +68,11 @@ ol[role="list"], ul[role="list"] {
   padding-inline: 0;
 }
 
+:root 
+{
+    font-size: 62.5%;
+}
+
 
 /* end of css reset */
 
@@ -88,6 +93,11 @@ h1, h2, h3, h4, h5, h6
     font-family: "Open Sans", "Courier New", monospace, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
+p
+{
+    font-size: 1.6rem;
+}
+
 .main-content
 {
     flex: 2;
@@ -103,16 +113,17 @@ h1, h2, h3, h4, h5, h6
 {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    opacity: .7;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 10em;
+    top: 20em;
+    padding: 1em;
 }
 
 .sidebar-header h1
 {
+    font-size: 7rem;
     color: white;
 }
 
@@ -123,15 +134,15 @@ h1, h2, h3, h4, h5, h6
 
 .odin-lined-img
 {
-    width: 100px;
-    height: 120px;
+    width: 10em;
+    height: 12em;
 }
 
 .sidebar p
 {
     width: 100%;
     position: absolute;
-    bottom: 1.5em;
+    bottom: 1em;
     text-align: center;
     color: white;
 }
@@ -148,8 +159,26 @@ h1, h2, h3, h4, h5, h6
 .form-main-container
 {
     background-color: white;
-    border-radius: 12px;
-    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    padding: 45px 40px;
+    box-shadow: .5em .3em .5em rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    padding: 4.5em 4em;
+}
+
+.main-content h3
+{
+    font-size: 2rem;
+}
+
+.main-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+.main-content p,
+.main-content h3
+{
+    margin-left: 4em
 }
