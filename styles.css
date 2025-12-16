@@ -176,9 +176,16 @@ p
     justify-content: center; 
 }
 
-
-.main-content p,
-.main-content h3
+.our-form button
 {
-    margin-left: 4em
+    margin-left: 4em;
+}
+.main-content p
+{
+    margin-left: 4rem;
+}
+
+.main-content > h3
+{
+    margin-left: 2em;
 }
