@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+</head>
+<body>
+    <div class="sidebar">
+        <!-- bgImg.jpg HEIC 687x1030 687x1030+0+0 8-bit YCbCr 0.000u 0:00.001 -->
+        <img src="./bgImg.jpg" alt="A close up image of ferns with dew on them">
+        <div class="sidebar-header">
+            <img class="odin-lined-img" src="./odin-lined.png" alt="The odin proj logo in white">
+            <h1>ODIN</h1>
+        </div>
+        <p>Photo by <a class="whitelink" href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p> 
+    </div>  
+    <div class="main-content">
+        <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h3>
+        <h3>You <em>know</em> you want to</h3>
+        <form class="our-form">
+            <div class="form-main-container">
+                <h2>Let's do this!</h2>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="userFirstName">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="userLastName">
+                <label for="mail">EMAIL</label>
+                <input type="email" id="mail" name="userEmail">
+                <label for="ph-number">PHONE NUMBER</label>
+                <input type="tel" id="ph-number" name="userPhoneNumber">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="userPassword">
+                <label for="conf-password">CONFIRM PASSWORD</label>
+                <input type="password" id="conf-password">
+            </div>
+            <button type="submit">
+                Create Account
+            </button>
+        </form>
+        <p class="login-acc">Already have an account? <a href="#">Log in</a></p>
+    </div>
+</body>
+</html>
