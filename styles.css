@@ -134,6 +134,7 @@ p
 
 .odin-lined-img
 {
+    flex-shrink: 0;
     width: 10em;
     height: 12em;
 }
@@ -169,6 +170,11 @@ p
     font-size: 2rem;
 }
 
+.main-content > h3:first-child
+{
+    margin-bottom: 4rem;
+}
+
 .main-content
 {
     display: flex;
@@ -178,7 +184,12 @@ p
 
 .our-form button
 {
-    margin-left: 4em;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    padding: 2rem 5rem;
+    border-radius: 1.2rem;
+    background-color: #596D48;
 }
 .main-content p
 {
@@ -189,3 +200,5 @@ p
 {
     margin-left: 2em;
 }
+
+
